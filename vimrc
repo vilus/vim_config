@@ -165,6 +165,8 @@ nnoremap <F6> :exe "ConqueTermSplit ipython " . expand("%")<CR>
 let g:ConqueTerm_StartMessages = 0
 let g:ConqueTerm_CloseOnEnd = 0
 "---------------------------------------------------------
+map <F8> :ConqueTerm bash<CR>
+"---------------------------------------------------------
 autocmd FileType python map <buffer> <leader>8 :PymodeLint<CR>
 autocmd FileType python map <buffer> <leader>9 :PymodeLintAuto<CR>
 "---------------------------------------------------------
